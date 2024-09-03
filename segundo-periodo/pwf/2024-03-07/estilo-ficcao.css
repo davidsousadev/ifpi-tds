@@ -1,0 +1,72 @@
+body {
+    background-color: #0d1b2a;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+h1 {
+    color: #ff9e00;
+    margin-bottom: 20px;
+    font-size: 35pt;
+    border-bottom: #7fdbff 5px solid;
+}
+h2 {
+    color: #7fdbff;
+    font-size: 33pt;
+    white-space: nowrap;
+    border-bottom: #ff9e00 5px solid;
+}
+p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+img {
+    width: 100%; /* Adapta a imagem para a largura do container */
+    max-width: 600px; /* Máximo tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    margin-left: 25%;    
+}
+ul {
+    list-style-type: circle; /* Estilo dos marcadores da lista */
+    margin-left: 40px; /* Indentação da lista */
+}
+
+
+img.direita{
+    width: 400px;
+    float: right;
+    margin-top: -30px;
+    border-radius: 20px;
+    position: relative;
+}
+span{
+    color: #f1db0f;
+}
+ul{
+    font-size: 18pt;
+    
+}
+ul>li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+div.rodape{
+    background-color: #7fdbff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+div.rodape>h3{
+    color: #0d1b2a;
+    font-size: 25pt;
+    font-weight: bold;
+}

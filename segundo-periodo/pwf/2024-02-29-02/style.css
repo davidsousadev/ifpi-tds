@@ -1,0 +1,19 @@
+body{
+    font-size: 28pt;
+}
+p{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.esquerda{
+    text-align: left;
+}
+
+.centro{
+    text-align: center;
+}
+
+.direita{
+    text-align: right;
+}
