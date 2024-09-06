@@ -11,16 +11,16 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 #### Nesta pasta você encontrará:
 
 
-- [**cs50**](/primeiro-periodo/cs50/): CS50 Python Havard.
-- [**pec**](/primeiro-periodo/pec/): Programação Estruturada de Computadosres.
+- [**CS50**](/primeiro-periodo/cs50/): CS50 Python Havard.
+- [**PEC**](/primeiro-periodo/pec/): Programação Estruturada de Computadosres.
 <!-- - [**Estudos**](/): Materiais de estudo e anotações. -->
 
 ### `Segundo Periodo`
 
 #### Nesta pasta você encontrará:
 
-- [**poo**](/segundo-periodo/poo/): Programação Orientada a Objetos.
-- [**pwf**](/segundo-periodo/pwf/): EProgramação Web Front-end.
+- [**POO**](/segundo-periodo/poo/): Programação Orientada a Objetos.
+- [**PWF**](/segundo-periodo/pwf/): EProgramação Web Front-end.
 <!-- - [**Estudos**](/): Materiais de estudo e anotações. -->
 
 
