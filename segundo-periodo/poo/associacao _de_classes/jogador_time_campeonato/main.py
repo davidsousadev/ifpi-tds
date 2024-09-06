@@ -34,7 +34,7 @@ class Campeonato:
     def partida(self, time1, gols1, time2, gols2):
         if time1.nome_time not in self.__times or time2.nome_time not in self.__times:
             raise ValueError("Um ou ambos os times não estão no campeonato.")
-        self.__partidas.append((time1.nome_time, time2.nome_time, gols1, gols2))
+        self.__partidas.append((time1.nome_time,  gols1, time2.nome_time, gols2))
         if gols1 > gols2:
             self.__times[time1.nome_time] += 3
         elif gols1 < gols2:
@@ -42,6 +42,13 @@ class Campeonato:
         else:
             self.__times[time1.nome_time] += 1
             self.__times[time2.nome_time] += 1
+
+    def mostrar_partidas(self):
+        print("Partidas:")
+        print('-' * 40)
+        for x in self.__partidas:
+            print(f"{x[0]:<10} - {x[1]} X {x[3]} - {x[2]:<5}")
+        print()
 
     def mostrar_classificacao(self):
         print(f"Campeonato {self.__nome} com: {self.__numero_de_times} times\n")
@@ -164,6 +171,7 @@ def main():
     brasileiraobetano.partida(time5, randrange(0, 10), time3, randrange(0, 10))
     brasileiraobetano.partida(time5, randrange(0, 10), time4, randrange(0, 10))
 
+    brasileiraobetano.mostrar_partidas()
     brasileiraobetano.mostrar_classificacao()
 
 if __name__ == "__main__":
