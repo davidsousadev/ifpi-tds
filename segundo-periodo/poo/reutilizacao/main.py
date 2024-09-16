@@ -16,36 +16,54 @@ from abc import abstractmethod
 
 class Carrinho_De_Compras:
     def __init__(self):
-        self.carrinho = []
-        self.total = 0
+        self.__itens_carrinho = []
         
     def adicionar(self, produto):
-        self.carrinho.append(produto)
+        self.__itens_carrinho.append(produto)
+        return f"Item: {produto.nome} adicionado com sucesso!"
     
     def remover(self, index):
-        for id, item in enumerate(self.carrinho):
-            if index <= len(self.carrinho):
+        for id, item in enumerate(self.__itens_carrinho):
+            if index <= len(self.__itens_carrinho):
                 if index-1==id:
-                    self.carrinho.pop(id)
+                    self.__itens_carrinho.pop(id)
                     return f"Item excluido com sucesso!"
             else:
                 return f"Item não localizado!"
+    
+    def limpar_carrinho(self):
+        self.__itens_carrinho = []
+        return f"Carrinho limpo com sucesso!"
         
     def mostrar(self):
-        if len(self.carrinho)>=1:
-            for produto in self.carrinho: 
+        if len(self.__itens_carrinho)>=1:
+            print("-" * 63 + " Carrinho " + "-" * 63)
+            print("-"*136)
+            total = 0
+            for produto in self.__itens_carrinho: 
                 print(produto)
-                self.total += (produto.valor - produto.desconto()) * produto.quantidade
-            return f"Valor total dos produtos: {self.total}"
+                total += (produto.valor - produto.desconto()) * produto.quantidade
+            return f"Valor total dos produtos {'-' * 100 } R$: {total}"
         else:
             return f"Carinho Vazio!"
-       
-              
+                  
 class Produto:
     def __init__(self, nome, quantidade, valor):
-        self.nome = nome
-        self.quantidade = quantidade
-        self.valor = valor
+        self._nome = nome
+        self._quantidade = quantidade
+        self._valor = valor
+    
+    @property
+    def nome(self):
+        return self._nome
+    
+    @property
+    def quantidade(self):
+        return self._quantidade
+    
+    @property
+    def valor(self):
+        return self._valor
     
     @abstractmethod
     def desconto():
@@ -56,39 +74,49 @@ class Eletronicos(Produto):
         super().__init__(nome=nome, quantidade=quantidade, valor=valor)  
     
     def desconto(self):
-        return self.valor * (10/100)
+        return self._valor * (10/100)
     
     def __str__(self):
-        return f"Nome: {self.nome:<20} - Quantidade: {self.quantidade:<5}  {'unidades' if self.quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self.valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self.valor - self.desconto()) * self.quantidade:<5}"
+        return f"Nome: {self._nome:<20} - Quantidade: {self._quantidade:<5}  {'unidades' if self._quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self._valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self._valor - self.desconto()) * self._quantidade:<5}"
     
 class Moveis(Produto):
     def __init__(self, nome, quantidade, valor):
         super().__init__(nome=nome, quantidade=quantidade, valor=valor)  
         
     def desconto(self):
-        return self.valor * (15/100)
+        return self._valor * (15/100)
         
     def __str__(self):
-        return f"Nome: {self.nome:<20} - Quantidade: {self.quantidade:<5}  {'unidades' if self.quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self.valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self.valor - self.desconto()) * self.quantidade:<5}"
+        return f"Nome: {self._nome:<20} - Quantidade: {self._quantidade:<5}  {'unidades' if self._quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self._valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self._valor - self.desconto()) * self._quantidade:<5}"
     
 class Vestuario(Produto):
     def __init__(self, nome, quantidade, valor):
         super().__init__(nome=nome, quantidade=quantidade, valor=valor)  
     
     def desconto(self):
-        return self.valor * (5/100)
+        return self._valor * (5/100)
         
     def __str__(self):
-        return f"Nome: {self.nome:<20} - Quantidade: {self.quantidade:<5}  {'unidades' if self.quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self.valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self.valor - self.desconto()) * self.quantidade:<5}"
+        return f"Nome: {self._nome:<20} - Quantidade: {self._quantidade:<5}  {'unidades' if self._quantidade!=1 else 'unidade ':<5} - Valor Original: R$: {self._valor:<7} - Desconto: R$: {self.desconto():<7} - Valor final: R$: {(self._valor - self.desconto()) * self._quantidade:<5}"
      
 def main():
+    # Objetos
     celular = Eletronicos("Smile X1", 2, 1000.00)
+    televisao = Eletronicos("JH 70p", 7, 5400.00)
     roupeiro = Moveis("Roupeiro Itati", 1, 500.00)
-    carrinho = Carrinho_De_Compras()
-    carrinho.adicionar(celular)
-    carrinho.adicionar(roupeiro)
-    #print(carrinho.remover(1))
-    print(carrinho.mostrar())
+    camisa = Vestuario("T-bob M", 3, 70.00)
     
+    # Objeto carrinho
+    carrinho = Carrinho_De_Compras()
+    
+    # Algumas operações
+    print(carrinho.adicionar(celular))
+    print(carrinho.adicionar(televisao))
+    print(carrinho.adicionar(roupeiro))
+    print(carrinho.adicionar(camisa))
+    print(carrinho.remover(2))
+    print(carrinho.mostrar())
+    print(carrinho.limpar_carrinho())
+    print(carrinho.mostrar())
 if __name__=="__main__":
     main()
