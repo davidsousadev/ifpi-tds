@@ -1,19 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <link rel="stylesheet" href="style.css">
     <title>Avaliação Bimestral - Portal de Notícias</title>
 </head>
+
 <body>
-    <header><h1>Portal de Notícias</h1></header>
-    <nav><ul>
-        <li>Home</li>
-        <li></li>
-        <li>Contatos</li>
-    </ul></nav>
+    <header>
+        <h1>Portal de Notícias - <button id="aumentarTamanhoTexto">A+</button>
+            <button id="diminuirTamanhoTexto">A-</button>
+            <button id="mudarCor">Dark</button>
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" id="pagina_principal">Home</a></li>
+            <li><a href="#" id="pagina_contatos">Contatos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="destaques">
+            <span>Últimas notícias</span>
+            <hr />
+        </section>
+        <section id="noticias">
+            <span>Principais notícias</span>
+            <hr />
+
+        </section>
+
+        <section id="publicidade">
+
+            <span>Publicidade</span>
+            <hr />
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJKj9702ccLqtWm9ndtPXobPlrchVXx6MGiHsYxRS9ctcUIRIEEhk3D7HVRLv_Mxv91go-cEXWf086EYsDJq1rVb-LHrHm8Bp9Nk3d84wXVq1-KKmJzYbI83D8oqA7e4hDjCaEsCNtq_4/s1600/Burger+King.jpg"
+                alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwv8YyswhVQ9Kp2m2qti93M4Flc1HK9Py6jQ&s"
+                alt="">
+        </section>
+        
+        <section id="contatos">
+            <h2>Contatos</h2>
+            <article>
+                <h3>Redes Sociais</h3>
+                <h4>David Sousa</h4>
+                <ul class="logos">
+                    <li><a href="https://www.linkedin.com/in/davidsousadev" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="Linkedin"></a></li>
+                    <li><a href="https://github.com/davidsousadev" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a></li>
+                    <li><a href="https://www.instagram.com/davidsousadev" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Instagram"> </a></li>
+                </ul>
+                <h4>Carlos Samuel</h4>
+                <ul class="logos">
+                    <li><a href="https://github.com/SamuelDev2004" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a></li>
+                    <li><a href="https://www.instagram.com/samuellfb?igsh=MWF2a3ZoMWg4bnFwZg==" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Instagram"> </a></li>
+                </ul>
+            </article>
+            <article>
+                <h3>Formulário de Contato</h3>
+               
+                <!-- Formulário de Contato -->
+                <form action="https://david-ds.rf.gd/email/index.php" method="get">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            
+            </article>
+            </section>
+
+    </main>
+    <footer>2024 - Todos os direitos reservados. - &copy;</footer>
 </body>
-<script src="script.js" defer></script>
+<script type="module" src="script.js" defer></script>
+
 </html>
