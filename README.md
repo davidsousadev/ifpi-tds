@@ -41,18 +41,18 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 
 >- **BD** - [**Banco de Dados**](/segundo-periodo/bd/)
 >- **Carga Horária:** 80h
->- **Prof.** [Aline Montenegro Leal Silva](**http:**//lattes.cnpq.br/3340016700432290) / [Helton Gírio Matos](http://lattes.cnpq.br/1486146581495668)
+>- **Prof.** [Aline Montenegro Leal Silva](http://lattes.cnpq.br/3340016700432290) / [Helton Gírio Matos](http://lattes.cnpq.br/1486146581495668)
 >- Nota: 8.9 / 10
 
 >- **EI** - [**Empreendedorismo e Inovação**](/segundo-periodo/ei/)
 >- **Carga Horária:** 80h
->- **Prof.** [Jose Rodrigues Alves Filho]( http://lattes.cnpq.br/6358436519202783)
+>- **Prof.** [Jose Rodrigues Alves Filho](http://lattes.cnpq.br/6358436519202783)
 >- **Nota:** 10 / 10
 
 >- **ES** - [**Engenharia de Software**](/segundo-periodo/es/)
 >- **Carga Horária:** 80h
 >- **Prof.** [Duany Dreyton Bezerra Sousa](http://lattes.cnpq.br/3744175351578428)
->- **Nota:** ~ / 10 *Não houve nota
+>- **Nota:** *Não houve nota
 
 >- **POO** - [**Programação Orientada á Objetos**](/segundo-periodo/poo/)
 >- **Carga Horária:** 80h
@@ -62,7 +62,7 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 >- **PWF** - [**Programação Web Fron-end**](/segundo-periodo/pwf/)
 >- **Carga Horária:** 80h
 >- **Prof.** [Rafael Araujo de Moraes](http://lattes.cnpq.br/4802537714511075) / [Ely da Silva Miranda](http://lattes.cnpq.br/095377522**6078319)
->- **Nota: 9.0 / 10
+>- **Nota:** 9.0 / 10
 
 ### `Terceiro Periodo`
 
