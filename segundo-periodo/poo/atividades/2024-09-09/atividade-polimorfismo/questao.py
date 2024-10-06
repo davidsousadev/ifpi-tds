@@ -1,3 +1,6 @@
+'''Partindo do código do exercicio anterior (ContaCorrente, ContaPoupança, ContaEspecial), crie uma classe: Banco com um atributo que representa o valor total contido nas contas deste banco e um atributo que representa o conjunto das Contas. Para isto, crie um método polimórfico para adicionar as instancias de ContaCorrente (ContaCorrente, ContaPoupança ou ContaEspecial) e depois crie um método para mostrar o valor total das contas cadastradas.
+'''
+
 import getpass
 
 class ContaCorrente:

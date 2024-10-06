@@ -1,3 +1,28 @@
+'''Impementar uma associação de classes 1:N entre as classes: Time e Jogador, onde a classe agregadora é a classe Time.
+
+Métodos: 
+
+adicionar_jogador(...)
+# adiciona um jogador sem vínculo com outro time
+
+exclui_jogador(...)
+# exclui jogador de um time 
+
+transferir_jogador(...)
+
+   # método que transfere um jogador de um time A (self) para um time B (time)
+   # Jogador precisa ser maior de idade (>=18)
+   #reutilizar os métodos: adiciona_jogador e exclui_jogador
+
+Mostrar_jogador(...)
+
+#mostra a lista com a informação dos jogadores do time
+
+
+No main(), crie objetos para representar pelo menos 4 times. Adicione jogadores menores de idade e maiores de idade diretamente do método adicionar_jogador(...). Crie objetos que representem jogadores sem vínculo. Adicione estes jogadores aos times. Realize transações entre times (transferencias). Exclua jogadores tornado-os sem vinculo.
+'''
+
+
 from datetime import datetime
 
 class Jogador:
