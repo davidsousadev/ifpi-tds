@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Formulário com Seletores de Atributos</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<h1>Formulário de Inscrição</h1>
+<form>
+<fieldset>
+<legend>Informações Pessoais</legend>
+<label for="username">Nome de usuário:</label>
+<input type="text" id="username" name="username">
+<label for="password">Senha:</label>
+<input type="password" id="password" name="password">
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email">
+<label for=" menssagem">Mensagem:</label>
+<textarea id="menssagem" name=" menssagem "></textarea>
+</fieldset>
+<fieldset>
+<legend>Gênero</legend>
+<label><input type="radio" name="genero" value="masculino"> Masculino</label>
+<label><input type="radio" name="genero" value="feminino"> Feminino</label>
+<label><input type="radio" name="genero" value="outro"> Outro</label>
+</fieldset>
+<fieldset>
+<legend>Interesses</legend>
+<label><input type="checkbox" name="interesses" value="programacao"> Programação</label>
+<label><input type="checkbox" name="interesses" value="musica"> Música</label>
+<label><input type="checkbox" name="interesses" value="esporte"> Esportes</label>
+<label><input type="checkbox" name="interesses" value="filmes"> Filmes</label>
+</fieldset>
+<button type="submit">Enviar</button>
+</form>
+<div class="icons"><a href="https://www.linkedin.com/">
+    <img src="imagens/linkedin.png" alt="linkedin">
+    </a>
+    <a href="https://www.github.com/">
+    <img src="imagens/github.png" alt="github">
+    </a>
+    <a href="https://www.twitter.com/">
+    <img src="imagens/twitter.png" alt="twitter">
+    </a></div>
+
+</body>
+</html>

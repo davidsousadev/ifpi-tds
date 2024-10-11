@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container-carrossel {
+  width: 400px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(400px * 4); /* Largura total considerando todas as imagens */
+}
+
+.imagem-carrossel {
+  width: 400px;
+  height: 300px;
+}
+
+#btn-anterior, #btn-proximo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#btn-anterior {
+  left: 10px;
+}
+
+#btn-proximo {
+  right: 10px;
+}
+
+#btn-anterior:hover, #btn-proximo:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

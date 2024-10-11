@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+body, #titulo-principal,ul {
+    margin: 0;
+}
+
+#menu{ 
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#titulo-principal, .titulo-postagem, #menu {
+    background-color: black;
+    color: white;
+}
+
+#titulo-principal {
+    padding: 5%;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.postagem {
+    background-color: white;
+    border-radius: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.titulo-postagem {
+    padding: 1%;
+}
+
+#conteudo {
+    width: 70%;
+    margin: auto;
+}
+
+
+#rodape {
+    padding: 1%;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin-left: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    text-indent: 2rem;
+    line-height: 1.5;
+    
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Estudo sobre JS</h1>
+
+    <script>
+        // escrevendo diretamente no documento
+        document.write('<h2>hello world</h2>');
+        document.write('<p>um parágrafo aleatório</p>');
+        // declarando variáveis
+        var nome = 'ely'; //variável global 
+        let sobrenome = 'miranda' //variável local
+        const idade = 45; //constante
+
+        //usando string interpolada
+        document.write(`Meu nome é ${nome} ${sobrenome}.`);
+        //idade = 35;
+        document.write('Minha idade é ' + idade);
+
+    </script>
+
+    <h2 id="subtitulo">Meu subtítulo</h2>
+    <button onclick="mudarSubtitulo()">Mude o subtítulo</button>
+    <script>
+        //chamando uma função via script
+        
+        function mudarSubtitulo() {
+            var subtitulo = document.getElementById('subtitulo');
+            subtitulo.innerHTML = 'Meu novo subtítulo';
+        }
+    </script>
+    
+
+</body>
+
+</html>

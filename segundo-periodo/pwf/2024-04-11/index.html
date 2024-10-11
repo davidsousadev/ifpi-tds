@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="/register" method="post">
+        <div class="form-group">
+            <label for="fullname">Nome Completo:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="data_nascimento">Data de nascimento</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="sexo">Sexo</label>
+            <select>
+                <input name="sexo"  type="radio" value="masculino" selected>Masculino</option>
+                <input name="sexo" type="radio" value="feminino">Feminino</option>
+                <input name="sexo" type="radio" value="outro">Outro</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">Interesses</label>
+            <input type="checkbox" name="interesses" value="tecnologia">Tecnologia
+            <input type="checkbox" name="interesses" value="educacao">Educação
+            <input type="checkbox" name="interesses" value="musica">Música
+            <input type="checkbox" name="interesses" value="esportes">Esportes
+        </div>
+
+        <div class="form-group">
+            <label for="pais">País</label>
+            <select>
+                <option value="brasil" selected>Brasil</option>
+                <option value="estados_unidos">Estados Unidos</option>
+                <option value="canada">Canadá</option>
+                <option value="japao">Japão</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="">Biografia</label>
+            <textarea name="biografia" id="biografia" cols="30" rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+
+</html>
