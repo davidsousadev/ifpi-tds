@@ -14,7 +14,7 @@ def par_ou_impar(numero):
 while True:
     try:
         numero = int(input("Digite um número inteiro: "))
-        print(f"O número {numero} é :", par_ou_impar(numero))
+        print(f"O número {numero} é : {par_ou_impar(numero)}")
         break
     except ValueError:
         print("\nDigite um número inteiro valido!\n")
