@@ -1,7 +1,11 @@
-"""1. Faça uma função que recebe um número inteiro por parâmetro e retorna verdadeiro se ele for par e falso se for ímpar."""
+"""
 
-def par_ou_impar(num):
-    if num % 2 == 0:
+1. Faça uma função que recebe um número inteiro por parâmetro e retorna verdadeiro se ele for par e falso se for ímpar.
+
+"""
+
+def par_ou_impar(numero):
+    if numero % 2 == 0:
         return "Par"
     else:
         return "Ímpar"
@@ -9,9 +13,8 @@ def par_ou_impar(num):
 
 while True:
     try:
-        num = int(input("Digite um número inteiro: "))
-        print(f"O número {num} é :", par_ou_impar(num))
+        numero = int(input("Digite um número inteiro: "))
+        print(f"O número {numero} é :", par_ou_impar(numero))
         break
-
-    except:
+    except ValueError:
         print("\nDigite um número inteiro valido!\n")

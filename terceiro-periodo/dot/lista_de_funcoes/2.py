@@ -1,6 +1,10 @@
-"""2. Escreva um programa que leia o raio de um círculo e faça duas funções: uma função chamada área que calcula e retorna a área
+"""
+
+2. Escreva um programa que leia o raio de um círculo e faça duas funções: uma função chamada área que calcula e retorna a área
 do círculo e outra função chamada perímetro que calcula e retorna o perímetro do círculo.
-Área = PI * r2; Perímetro = PI * 2 * r;"""
+Área = PI * r2; Perímetro = PI * 2 * r;
+
+"""
 
 PI = 3.14159265359
 
@@ -18,5 +22,5 @@ while True:
         print(f"Perímetro do circulo para o raio de {raio} é :", calcular_perimetro(raio))
         break
 
-    except:
+    except ValueError:
         print("\nDigite um raio valido!\n")
