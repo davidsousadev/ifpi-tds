@@ -6,4 +6,4 @@
 
 > [Deploy](https://buy-tech.vercel.app/)
 
-> [Slide de apresentação](/terceiro-periodo/pi/slide-apresentacao-buy-tech.pdf)
+> [Slides de apresentação](/terceiro-periodo/pi/slides/)

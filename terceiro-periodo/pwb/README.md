@@ -29,3 +29,7 @@
 > [Aula 003](/terceiro-periodo/pwb/2024-10-09/) - Métodos HTTP, Status Code, Path, Path Params
 
 > [Aula 004](/terceiro-periodo/pwb/2024-10-16/) - Métodos HTTP, Status Code, Path, Path Params, Models(schema) + Response Model
+
+> [Aula 005](/terceiro-periodo/pwb/2024-10-16/) - Atividade Métodos HTTP, Status Code, Response..* (Faltei)
+
+> [Aula 006](/terceiro-periodo/pwb/2024-10-23/) - Integração com Banco de Dados.
