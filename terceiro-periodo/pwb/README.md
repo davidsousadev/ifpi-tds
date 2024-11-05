@@ -15,6 +15,8 @@
 ### Atividades
 
 > [A - API Books v1](/terceiro-periodo/pwb/atividades/A-API-Books-v1/README.md)
+> [B = API Book: BD e Organização](/terceiro-periodo/pwb/atividades/B-API-Book-BD-e-organizacao/)
+
 
 ### Slides
 
