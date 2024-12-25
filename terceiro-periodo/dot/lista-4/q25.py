@@ -1,3 +1,10 @@
+"""
+
+25.  Escreva uma função que recebe, por parâmetro um valor inteiro e retorna o 
+seu fatorial.
+
+"""
+
 def fatorial(n):
     if n == 0 or n == 1:
         return 1

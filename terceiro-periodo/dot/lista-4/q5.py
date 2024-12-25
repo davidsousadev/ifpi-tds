@@ -1,4 +1,11 @@
 
+"""
+
+5. Faça uma função que recebe a idade de uma pessoa em anos, meses e dias 
+e retorna essa idade expressa em dias. 
+
+"""
+
 def idade_em_dias(anos, meses, dias):
     if (type(anos) != int or type(meses) != int or type(dias) != int) or (anos < 0 or meses < 0 or dias < 0):
         return Exception

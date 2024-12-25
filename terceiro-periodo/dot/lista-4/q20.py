@@ -1,3 +1,10 @@
+"""
+
+20. Escreva uma função que recebe, por parâmetro, um valor inteiro e positivo e 
+retorna o somatório desse valor.
+
+"""
+
 def somatorio(n):
     return sum(range(1, n+1))
 

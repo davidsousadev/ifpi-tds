@@ -1,3 +1,17 @@
+"""
+
+7. Faça uma função que recebe a idade de um nadador por parâmetro e retorna 
+a categoria desse nada dor de acordo com a tabela abaixo: 
+Idade Categoria 
+5 a 7 anos Infantil A 
+8 a 10 anos Infantil B 
+11-13 anos Juvenil A 
+14-17 anos Juvenil B 
+Maiores  de  18  anos 
+(inclusive)
+
+"""
+
 def categoria_nadador(idade):
     if type(idade) != int or idade < 5:
         return Exception

@@ -1,3 +1,10 @@
+"""
+
+12.  Faça uma função que recebe 2 valores inteiros por parâmetro e retorna-os 
+ordenados em ordem crescente.
+
+"""
+
 def ordenar(val1, val2):
     return (min(val1, val2), max(val1, val2))
 

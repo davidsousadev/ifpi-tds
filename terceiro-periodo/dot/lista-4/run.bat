@@ -1,0 +1,26 @@
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q1.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q2.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q3.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q4.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q5.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q6.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q7.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q8.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q9.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q10.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q11.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q12.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q13.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q14.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q15.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q16.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q17.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q18.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q19.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q20.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q21.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q22.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q23.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q24.py
+C:/Users/Alunos/Documents/david/venv/Scripts/python.exe c:/Users/Alunos/Documents/david/ifpi/dot/l4/q25.py
+echo "Todos os testes passaram!"

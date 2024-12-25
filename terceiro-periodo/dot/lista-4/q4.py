@@ -1,3 +1,11 @@
+"""
+
+4.  Faça  uma  função  que  recebe  por  parâmetro  o  tempo  de  duração  de  um 
+processo em uma fábrica expressa em segundos e retorna também por 
+parâmetro esse tempo em horas, minutos e segundos.
+
+"""
+
 def tempo_processos(segundos):
     if type(segundos) != int or segundos < 0:
         return Exception

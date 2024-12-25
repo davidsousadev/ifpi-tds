@@ -1,3 +1,10 @@
+"""
+
+9.  Faça uma função que recebe um  valor inteiro e verifica se o valor é par ou 
+ímpar. A função deve retornar um valor booleano.
+
+"""
+
 def par_ou_impar(valor):
     if type(valor) != int and type(valor) != float:
         return Exception
