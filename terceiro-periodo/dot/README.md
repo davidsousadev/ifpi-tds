@@ -8,3 +8,5 @@
 * [LISTA 3 - LISTAS - Continuação](/terceiro-periodo/dot/lista-3/) - 12/11/2024
 
 * [LISTA 4 - Programas com Funções usando DOT](/terceiro-periodo/dot/lista-4/) - 24/12/2024
+
+* [LISTA 5 - Programas com Funções usando DOT](/terceiro-periodo/dot/lista-5/) - 14/01/2025
