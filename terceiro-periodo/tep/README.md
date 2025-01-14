@@ -17,3 +17,9 @@
 > [23/10/2024](/terceiro-periodo/tep/2024-10-23/) - Resolução de exercícios relacionados à parte teórica: Introdução à ciencia de dados, big data e machine learning.
 
 > [25/10/2024](/terceiro-periodo/tep/2024-10-25/) - Exercício de revisão de Estruturas de Dados em Python
+
+> [30/10/2024](/terceiro-periodo/tep/2024-10-30/) - Manipulação de arquivos CSV
+
+> [22/11/2024](/terceiro-periodo/tep/2024-11-22/) - Numpy: Atividade 1
+
+> [29/11/2024](/terceiro-periodo/tep/2024-11-29/) - Exercício - Numpy - Dados Climáticos (versão 1)
