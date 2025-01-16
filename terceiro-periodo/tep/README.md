@@ -27,3 +27,5 @@
 > [18/12/2024](/terceiro-periodo/tep/2024-12-18/) - Pandas  - 1a. Atividade 
 
 > [20/12/2024](/terceiro-periodo/tep/2024-12-20/) - Pandas - 2a. Atividade
+
+> [10/01/2025](/terceiro-periodo/tep/2025-01-10/) - Pandas - Exercício 3
