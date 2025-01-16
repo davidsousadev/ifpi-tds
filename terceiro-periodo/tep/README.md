@@ -25,3 +25,5 @@
 > [29/11/2024](/terceiro-periodo/tep/2024-11-29/) - Exercício - Numpy - Dados Climáticos (versão 1)
 
 > [18/12/2024](/terceiro-periodo/tep/2024-12-18/) - Pandas  - 1a. Atividade 
+
+> [20/12/2024](/terceiro-periodo/tep/2024-12-20/) - Pandas - 2a. Atividade
