@@ -32,7 +32,8 @@ assert media_notas(5.5, 5.5, 5.5, 'A') == 5.5
 
 assert media_notas("", 5, 5, 'A') == Exception
 assert media_notas(5, 5, 5, 'q') == Exception
-assert media_notas("5", 5, 5, 'q') == Exceptionassert volume_esfera(True) == Exception
-assert volume_esfera(None) == Exception
+assert media_notas("5", 5, 5, 'q') == Exception
+assert media_notas(True, True, True, True) == Exception
+assert media_notas(None, None, None, None) == Exception
 
 print("Todos os testes passaram!")

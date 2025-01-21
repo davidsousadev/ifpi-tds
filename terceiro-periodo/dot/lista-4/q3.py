@@ -24,4 +24,5 @@ assert numero_primo(4) == False
 assert numero_primo(17) == True
 
 assert numero_primo("") == Exception
+assert numero_primo() == Exception
 print("Todos os testes passaram!")
