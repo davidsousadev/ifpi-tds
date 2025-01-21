@@ -14,7 +14,10 @@ def par_ou_impar(valor):
 assert par_ou_impar(4) == True
 assert par_ou_impar(7) == False
 assert par_ou_impar(0) == True
-
 assert par_ou_impar(-50) == True
+
 assert par_ou_impar("") == Exception
+assert par_ou_impar([]) == Exception
+assert par_ou_impar(True) == Exception
+assert par_ou_impar(None) == Exception
 print("Todos os testes passaram!")

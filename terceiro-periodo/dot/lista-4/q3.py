@@ -12,7 +12,7 @@ def numero_primo(num):
     if type(num) != int:
         return Exception
     if num <= 1:
-        return False
+        return Exception
     for i in range(2, int(math.sqrt(num)) + 1):
         if num % i == 0:
             return False
@@ -24,5 +24,13 @@ assert numero_primo(4) == False
 assert numero_primo(17) == True
 
 assert numero_primo("") == Exception
-assert numero_primo() == Exception
+assert numero_primo(-1) == Exception
+assert numero_primo(True) == Exception
+assert numero_primo(None) == Exception
+assert numero_primo([]) == Exception
+assert numero_primo({}) == Exception
+assert numero_primo([1]) == Exception
+assert numero_primo({1}) == Exception
+
+
 print("Todos os testes passaram!")

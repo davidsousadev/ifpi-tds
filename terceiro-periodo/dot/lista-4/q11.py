@@ -18,22 +18,26 @@ def peso_ideal(altura, sexo):
              sexo.upper() != "F")
              )):
         return Exception
-    if altura <= 1 or altura >= 3:
+    if 1 >= altura <= 3:
         return Exception
+    
     if sexo == 'M':
         return round((72.7 * altura - 58), 2)
+    
     elif sexo == 'F':
         return round((62.1 * altura - 44.7), 2)
     return 0
-print(peso_ideal(1.60, 'F'))
+
 # Teste
-
 assert peso_ideal(1.75, 'M') == 69.23
-# assert peso_ideal(1.60, 'F') == 54.66
-# assert peso_ideal(1.80, 'M') == 72.7 * 1.80 - 58
+assert peso_ideal(1.60, 'F') == 54.66
+assert peso_ideal(1.80, 'M') == 72.86
 
-# assert peso_ideal("", 0) == Exception
-# assert peso_ideal(0, "") == Exception
-# assert peso_ideal(0, "F") == Exception
-# assert peso_ideal(1.0, "F") == Exception
-# print("Todos os testes passaram!")
+assert peso_ideal("", 0) == Exception
+assert peso_ideal(0, "") == Exception
+assert peso_ideal(0, "F") == Exception
+assert peso_ideal(1.0, "F") == Exception
+assert peso_ideal([1.80], ['M']) == Exception
+assert peso_ideal(True, True) == Exception
+assert peso_ideal(None, None) == Exception
+print("Todos os testes passaram!")

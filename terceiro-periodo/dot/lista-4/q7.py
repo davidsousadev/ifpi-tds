@@ -35,4 +35,7 @@ assert categoria_nadador(20) == 'Adulto'
 assert categoria_nadador(4) == Exception
 assert categoria_nadador(5.0) == Exception
 assert categoria_nadador("") == Exception
+assert categoria_nadador([]) == Exception
+assert categoria_nadador(True) == Exception
+assert categoria_nadador(None) == Exception
 print("Todos os testes passaram!")

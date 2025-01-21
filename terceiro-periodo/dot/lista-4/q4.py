@@ -21,4 +21,10 @@ assert tempo_processos(7200) == (2, 0, 0)
 assert tempo_processos(0) ==(0, 0, 0)
 
 assert tempo_processos(-100) == Exception
+assert tempo_processos(59.0) == Exception
+assert tempo_processos([100]) == Exception
+assert tempo_processos({100}) == Exception
+assert tempo_processos("100") == Exception
+assert tempo_processos(True) == Exception
+assert tempo_processos(None) == Exception
 print("Todos os testes passaram!")

@@ -14,6 +14,10 @@ o Triângulo Escaleno: os comprimentos dos 3 lados são diferentes.
 """
 
 def tipo_triangulo(x, y, z):
+    if (type(x) != int or type(z) != int or type(y) != int 
+    or type(x) != float or type(z) != float or type(y) != float):
+        return Exception
+    
     if x + y > z and x + z > y and y + z > x:
         if x == y == z:
             return 'Equilátero'
@@ -28,4 +32,11 @@ assert tipo_triangulo(3, 3, 3) == 'Equilátero'
 assert tipo_triangulo(3, 3, 5) == 'Isósceles'
 assert tipo_triangulo(3, 4, 5) == 'Escaleno'
 assert tipo_triangulo(1, 2, 3) == 'Não é um triângulo'
+
+assert tipo_triangulo(0, 0, 0) == 'Não é um triângulo'
+
+
+assert tipo_triangulo("0", 0, 0) == Exception
+
+
 print("Todos os testes passaram!")

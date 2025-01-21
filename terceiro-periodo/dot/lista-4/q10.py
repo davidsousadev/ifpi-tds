@@ -30,4 +30,8 @@ assert conceito_aluno(8) == 'B'
 assert conceito_aluno(9.5) == 'A'
 
 assert conceito_aluno("10") == Exception
+assert conceito_aluno([]) == Exception
+assert conceito_aluno(True) == Exception
+assert conceito_aluno(None) == Exception
+
 print("Todos os testes passaram!")

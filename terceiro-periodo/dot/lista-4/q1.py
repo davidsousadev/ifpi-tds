@@ -20,6 +20,8 @@ assert volume_esfera(1) == 4.19
 assert volume_esfera("a") == Exception
 assert volume_esfera("3") == Exception
 assert volume_esfera("") == Exception
+assert volume_esfera([3]) == Exception
+assert volume_esfera({1}) == Exception
 assert volume_esfera(True) == Exception
 assert volume_esfera(None) == Exception
 
