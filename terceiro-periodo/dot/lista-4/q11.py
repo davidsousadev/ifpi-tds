@@ -28,7 +28,7 @@ def peso_ideal(altura, sexo):
         return round((62.1 * altura - 44.7), 2)
     return 0
 
-# Teste
+# Testes
 assert peso_ideal(1.75, 'M') == 69.23
 assert peso_ideal(1.60, 'F') == 54.66
 assert peso_ideal(1.80, 'M') == 72.86
@@ -40,4 +40,5 @@ assert peso_ideal(1.0, "F") == Exception
 assert peso_ideal([1.80], ['M']) == Exception
 assert peso_ideal(True, True) == Exception
 assert peso_ideal(None, None) == Exception
+
 print("Todos os testes passaram!")
