@@ -35,11 +35,11 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 
 | * | **Índice** | **Matéria** | **Carga Horária** | **Prof.** | **Nota:** |
 |---|---|---|---|---|---|
-| 11 | **DOT** | [**Desenvolvimento Orientado a Testes**](/terceiro-periodo/dot/README.md) | 80h | [Osires Pires Coelho Filho](http://lattes.cnpq.br/3173040465258628) | / 10 |
+| 11 | **DOT** | [**Desenvolvimento Orientado a Testes**](/terceiro-periodo/dot/README.md) | 80h | [Osires Pires Coelho Filho](http://lattes.cnpq.br/3173040465258628) | 9.5 / 10 |
 | 12 |**PDM** | [**Programação para Dispositivos Móveis**](/terceiro-periodo/pdm/README.md) | 80h | [Rafael Araujo de Moraes](http://lattes.cnpq.br/4802537714511075) | / 10 |
-| 13 | **PWB** | [**Programação Web Back-end**](/terceiro-periodo/pwb/) | 80h | [Rogerio da Silva](https://www.linkedin.com/in/rogerio410/) | / 10 | 
-| 14 | **PI** | [**Projeto Integrador**](/terceiro-periodo/pi/README.md) | 80h | [Adalton de Sena Almeida](http://lattes.cnpq.br/2506716715112053) | / 10 |
-| 15 | **TEP** | [**Tópicos Especiais em Programação**](/terceiro-periodo/tep/README.md)  | 80h | [Rogério da Silva Batista](http://lattes.cnpq.br/0697104139881988) | / 10 | 
+| 13 | **PWB** | [**Programação Web Back-end**](/terceiro-periodo/pwb/) | 80h | [Rogerio da Silva](https://www.linkedin.com/in/rogerio410/) | 10 / 10 | 
+| 14 | **PI** | [**Projeto Integrador**](/terceiro-periodo/pi/README.md) | 80h | [Adalton de Sena Almeida](http://lattes.cnpq.br/2506716715112053) | 9.0 / 10 |
+| 15 | **TEP** | [**Tópicos Especiais em Programação**](/terceiro-periodo/tep/README.md)  | 80h | [Rogério da Silva Batista](http://lattes.cnpq.br/0697104139881988) | 7.6 / 10 | 
 
 ### `Extras`
 
