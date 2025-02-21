@@ -25,7 +25,7 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 |---|---|---|---|---|---|
 | 6 | **BD** | [**Banco de Dados**](/segundo-periodo/bd/README.md) | 80h | [Aline Montenegro Leal Silva](http://lattes.cnpq.br/3340016700432290) / [Helton Gírio Matos](http://lattes.cnpq.br/1486146581495668) | 8.9 / 10 |
 | 7 | **EI** | [**Empreendedorismo e Inovação**](/segundo-periodo/ei/README.md) | 80h | [Jose Rodrigues Alves Filho](http://lattes.cnpq.br/6358436519202783) | 10 / 10 |
-| 8 | **ES** | [**Engenharia de Software**](/segundo-periodo/es/README.md) | 80h | [Duany Dreyton Bezerra Sousa](http://lattes.cnpq.br/3744175351578428) |   *¹ / 10 |
+| 8 | **ES** | [**Engenharia de Software**](/segundo-periodo/es/README.md) | 80h | [Duany Dreyton Bezerra Sousa](http://lattes.cnpq.br/3744175351578428) |   9 / 10 |
 | 9 | **POO** | [**Programação Orientada á Objetos**](/segundo-periodo/poo/README.md) | 80h | [Rogério da Silva Batista](http://lattes.cnpq.br/0697104139881988) | 8.5 / 10 |
 | 10 | **PWF** | [**Programação Web Fron-end**](/segundo-periodo/pwf/README.md) | 80h | [Rafael Araujo de Moraes](http://lattes.cnpq.br/4802537714511075) / [Ely da Silva Miranda](http://lattes.cnpq.br/095377522**6078319) | 9.0 / 10 |
 
@@ -36,11 +36,11 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 | * | **Índice** | **Matéria** | **Carga Horária** | **Prof.** | **Nota:** |
 |---|---|---|---|---|---|
 | 11 | **DOT** | [**Desenvolvimento Orientado a Testes**](/terceiro-periodo/dot/README.md) | 80h | [Osires Pires Coelho Filho](http://lattes.cnpq.br/3173040465258628) | 9.5 / 10 |
-| 12 |**PDM** | [**Programação para Dispositivos Móveis**](/terceiro-periodo/pdm/README.md) | 80h | [Rafael Araujo de Moraes](http://lattes.cnpq.br/4802537714511075) | / 10 |
+| 12 |**PDM** | [**Programação para Dispositivos Móveis**](/terceiro-periodo/pdm/README.md) | 80h | [Rafael Araujo de Moraes](http://lattes.cnpq.br/4802537714511075) | 8.8 / 10 |
 | 13 | **PWB** | [**Programação Web Back-end**](/terceiro-periodo/pwb/) | 80h | [Rogerio da Silva](https://www.linkedin.com/in/rogerio410/) | 10 / 10 | 
 | 14 | **PI** | [**Projeto Integrador**](/terceiro-periodo/pi/README.md) | 80h | [Adalton de Sena Almeida](http://lattes.cnpq.br/2506716715112053) | 9.0 / 10 |
 | 15 | **TEP** | [**Tópicos Especiais em Programação**](/terceiro-periodo/tep/README.md)  | 80h | [Rogério da Silva Batista](http://lattes.cnpq.br/0697104139881988) | 7.6 / 10 | 
-
+||||||9.12 / 10|
 ### `Extras`
 
 #### Nesta pasta você encontrará:
@@ -50,5 +50,4 @@ O repositório está organizado em duas pastas principais, cada uma corresponden
 | **CS50** | [**Python Havard**](/extras/cs50/README.md) | | [André Portela](https://www.linkedin.com/in/andrethedev/) | |
 
 
-> - ### *¹Não houve nota 
 Obrigado por visitar o repositório **ifpi-tds**!# ifpi-tds
